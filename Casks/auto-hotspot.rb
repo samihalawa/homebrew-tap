@@ -1,6 +1,6 @@
 cask "auto-hotspot" do
-  version "1.0.1"
-  sha256 "a5f64ea52d479a017e5ff32b25f64f608730e71ac5dff474b07b5534c1dcc4b1"
+  version "1.0.2"
+  sha256 "cd67fa197cd8ae50bac3cc477247e46c2aa088f1e486f90f6ed142c78b3a5388"
 
   url "https://github.com/samihalawa/mac-auto-hotspot/releases/download/v#{version}/AutoHotspot-#{version}.zip"
   name "Auto Hotspot"
@@ -23,6 +23,5 @@ cask "auto-hotspot" do
 
   caveats <<~EOS
     Open Auto Hotspot once from Applications to put it in the menu bar and add its login item.
-    It is not notarized: if macOS blocks it, right-click the app and choose Open.
   EOS
 end
