@@ -12,7 +12,7 @@ cask "autohotspot" do
     strategy :github_latest
   end
 
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "AutoHotspot.app"
   binary "#{appdir}/AutoHotspot.app/Contents/MacOS/AutoHotspot", target: "autohotspot"
