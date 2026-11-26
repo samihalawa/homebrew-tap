@@ -4,7 +4,7 @@ cask "postura" do
 
   url "https://github.com/samihalawa/postura/releases/download/v#{version}/Postura-#{version}.zip"
   name "Postura"
-  desc "Camera posture guard that covers the screen with a glow when you slouch"
+  desc "Posture coach with gradual screen cover and Dock controls"
   homepage "https://github.com/samihalawa/postura"
 
   livecheck do
@@ -31,7 +31,7 @@ cask "postura" do
   ]
 
   caveats <<~EOS
-    Open Postura once: it lives in the menu bar, keeps itself running and
-    sets up its posture model on first launch (about a minute).
+    Open Postura from the Dock and allow camera access.
+    The first launch sets up the local posture model.
   EOS
 end
