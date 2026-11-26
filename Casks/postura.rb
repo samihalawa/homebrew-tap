@@ -1,6 +1,6 @@
 cask "postura" do
-  version "1.6.0"
-  sha256 "ef1b163a59c9263da7f4c33cac8d5a2cfc4cd1e292ed5f2adfba1143140ee43a"
+  version "1.6.2"
+  sha256 "a725e981e2029df96f4416b64a86f89b4743f6744dcf85c237948551450276e4"
 
   url "https://github.com/samihalawa/postura/releases/download/v#{version}/Postura-#{version}.zip"
   name "Postura"
